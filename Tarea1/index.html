@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primera página</title>
+</head>
+<body>
+    <h1>Supermercado García</h1>
+    <p>Bienvenido a nuestro supermercado en linea, aqui encontraras productos de calidad, 
+        frescos y al mejor precio, para brindarte un excelente servicio y acompañar tu dia a dia   </p>
+
+    <hr>
+<div class="contacto">
+    <h2>Categorias</h2>
+    <ul>
+        <li>Servicios</li>
+        <li>Productos</li>
+        <li>Redes sociales</li>
+    </ul>
+</div>
+    
+
+<section class="tabla">
+    <h2>Productos en oferta</h2>
+    <table border="5">
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+        </tr>
+        <tr>
+            <td>Filete de salmon</td>
+            <td>$12.99</td>
+            <td><img src="./assets/filete_salmon.jpg" alt="Filete de salmon" width="100"></td>
+        </tr>
+         <tr>
+            <td>Filete de ternera</td>
+            <td>$15.99</td>
+            <td><img src="./assets/filete_de_ternera.webp" alt="Filete de ternera" width="100"></td>
+        </tr>
+        </tr>
+         <tr>
+            <td>Mojarra roja</td>
+            <td>$10.99</td>
+            <td><img src="./assets/mojarra_roja.webp" alt="Mojarra roja" width="100"></td>
+        </tr>
+        </tr>
+         <tr>
+            <td>Trucha</td>
+            <td>$13.99</td>
+            <td><img src="./assets/trucha.webp" alt="Trucha" width="100"></td>
+        </tr>
+    </table>
+    </section>
+
+    <hr>
+
+    <section class="pasos">
+    <h3>Pasos para acceder a nuestra membresia premium</h3>
+    <ol>
+        <li>Registrate en nuestro sitio web</li>
+        <li>Selecciona el plan de membresia que deseas</li>
+        <li>Realiza el pago correspondiente</li>
+        <li>Disfruta de los beneficios exclusivos de nuestra membresia premium</li>
+    </ol>
+    <a href="https://gopass.com.co/memberships">Accede aqui a nuestra membresia</a>
+    </section>
+
+    <br><br>
+
+    <h2>Solicita accesoria</h2>
+<form action="procesar.php" method="post">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>
+  <br><br>
+
+  <label for="correo">Correo electrónico:</label>
+  <input type="email" id="correo" name="correo" required>
+  <br><br>
+
+  <label for="telefono">Telefono:</label>
+  <input type="text" id="telefono" name="telefono" required>
+  <br><br>
+
+  <button type="submit">Enviar</button>
+</form>
+
+
+<hr>
+    <div>
+        <h1>Nuestras Redes Sociales</h1>
+        <ul>
+            <li>
+                <a href="https://web.facebook.com/?locale=es_LA&_rdc=1&_rdr#">
+                <button>
+                    <p>Facebook</p>
+                </button>
+            </a>
+        </li>
+            <li>
+                <a href="https://www.instagram.com/">
+                    <button>
+                        <p>Instagram</p>
+                    </button>
+                </a>
+            </li>
+                <li>
+                    <a href="https://x.com/?lang=es">
+                        <button>
+                            <p>X</p>
+                        </button>
+                    </a>
+        </ul>
+    </div>
+    <br><br>
+    <p>Soporte: 3224501016</p>
+
+</body>
+</html>
