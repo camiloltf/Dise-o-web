@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  gap: 30px;
+}
+
+nav img{
+    width: 100px;
+    height: 90px;
+    margin-left: 140px;
+    border-radius: 70px;
+    background-color: bisque;
+}
+
+nav button{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 135px;
+    height: 35px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+nav button:hover {
+    background-color: rgb(114, 114, 114);
+}
+
+nav .pegados {
+    display: flex;
+    flex-direction: row;
+    margin-right: 130px;
+}
+
+.about {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 750px;
+}
+
+.about .texto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 250px;
+}
+
+.about img {
+    width: 900px;
+    height: 750px;
+}
+
+.about button {
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.about button:hover {
+    background-color: rgb(114, 114, 114);
+}
+
