@@ -1,0 +1,179 @@
+.navbar {
+    background-color: #7c6443;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+}
+
+.navbar .imagenes_navbar img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar .nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.navbar .nav h3 {
+    margin-left: 15px;
+}
+
+.navbar .nav img {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin: 0 10px;
+    justify-content: center;
+}
+
+.banner {
+    background-color: #6a6c72;
+    display: flex;
+    flex-direction: row;
+    border: rgb(56, 56, 56) solid 2px;
+}   
+
+.banner img {
+    height: 700px;
+    width: 900px;  
+}
+
+.banner .card1 {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.banner .cuadro {
+    background-color:#7c6443;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 150px;
+    border: black solid 4px;
+}
+
+.cuadro button {
+    width: 300px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.parte3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    height: 600px;
+    margin-top: 40px;
+}
+
+.parte3 h2 {
+    margin-bottom: 0px;
+}
+
+.cartas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.cartas img {
+    width: 400px;
+    height: 400px;
+}
+
+.cartas h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.productos img {
+    width: 300px;
+    height: 300px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.combos {
+    display: flex;
+    flex-direction: row;
+}
+
+.combo1, .combo2, .combo3, .combo4 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: black solid 2px;
+}
+
+.combo1 h3, .combo2 h3, .combo3 h3, .combo4 h3 {
+    display: flex;
+    margin-left: 10px;
+}
+
+.productos button {
+    width: 300px;
+    height: 45px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.informacion {
+    background-color: #6a6c72;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 700px;
+}
+
+.informacion img {
+    width: 400px;
+    height: 400px;
+    margin: 150px;
+}
+
+.carta_informacion {
+    display: flex;
+    margin: 100px;
+    background-color: #7c6443;
+    border: black solid 2px;
+}
+
+.llamar {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.llamar button {
+    width: 300px;
+    height: 45px;
+    margin-top: 20px;
+    cursor: pointer;
+}
