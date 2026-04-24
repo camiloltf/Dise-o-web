@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="barra">
+        <h1>Battle Game</h1>
+    </section>
+
+    <section class="jugadores">
+        <div class="jugador1">
+            <h2>Jugador 1</h2>
+            <p id="vida_jugador">Vida: 100</p>
+            <img src="./assets/optimus.jpg" alt="jugador">
+        </div>
+
+        <div class="jugador2">
+            <h2>Jugador 2</h2>
+            <p id="vida_enemigo">Vida: 100</p>
+            <img src="./assets/megatron.avif" alt="enemigo">
+        </div>
+    </section>
+
+    <p id="mensaje"></p>
+    
+
+    <section class="botones">
+    <button type="button" onclick="atacar(), ataque_ene()">ataque</button>
+    <button type="button" onclick="Descansar()">descansar</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
