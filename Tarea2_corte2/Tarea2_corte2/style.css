@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Tikal Sans', sans-serif;
+    background-color: #f5f2e8;
+    color: #333;
+}
+
+
+.About{
+    background: linear-gradient(135deg, rgb(167,159,137), rgb(140,130,110));
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 40px;
+}
+
+.About .About-Info{
+    width: 50%;
+    margin-top: 100px;
+}
+
+.About h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #2c2c2c;
+}
+
+.About p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+img[alt="arte_textil"]{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin-top: 40px;
+    border: 3px solid rgb(65,111,197);
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+
+img[alt="arte_textil"]:hover{
+    transform: scale(1.05);
+}
+
+img[alt="logotipo"]{
+    width: 90px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid rgb(121,96,68);
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.About .About-Interactivo{
+    width: 45%;
+    height: 400px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+
+.Banner{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./assets/banner.webp") center/cover no-repeat;
+}
+
+.Banner h2 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+
+section{
+    padding: 60px 10%;
+}
+
+
+section h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #3a2e1f;
+}
+
+.Civilizaciones article{
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-left: 6px solid #8b6f47;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.Civilizaciones article:hover{
+    transform: translateX(10px);
+}
+
+.Civilizaciones h3{
+    margin-bottom: 10px;
+    color: #5a4630;
+}
+
+
+.Arte{
+    background-color: #e8e0cf;
+    text-align: center;
+}
+
+.Arte img{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid #8b6f47;
+}
+
+.Agricultura{
+    background-color: #f2efe6;
+}
+
+.Legado{
+    background: linear-gradient(135deg, #d8cbb3, #c2b091);
+}
+
+footer{
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 900px){
+
+    .About{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .About .About-Info,
+    .About .About-Interactivo{
+        width: 100%;
+    }
+
+    .Banner h2{
+        font-size: 2.5rem;
+    }
+
+    section{
+        padding: 40px 5%;
+    }
+}
